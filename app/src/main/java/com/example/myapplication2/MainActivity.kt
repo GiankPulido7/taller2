@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+//hola comentario ejemplo
         // Referenciar elementos de la interfaz
         val textView = findViewById<TextView>(R.id.textView)
         val btnSaludar = findViewById<Button>(R.id.btnSaludar)
